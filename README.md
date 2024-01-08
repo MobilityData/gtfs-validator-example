@@ -1,5 +1,5 @@
 # gtfs-validator-example
-A example project using the libraries gtfs validator from maven central.
+A example project using the gtfs validator libraries from maven central.
 
 This project contains a single java file (GtfsValidatorExample.java) that runs the validator on a fixed example gtfs dataset.
 

@@ -12,16 +12,7 @@
             <id>central</id>
             <url>https://repo.maven.apache.org/maven2</url>
         </repository>
-<!--        <repository>-->
-<!--            <id>central2</id>-->
-<!--            <name>check central first to avoid a lot of not found warnings</name>-->
-<!--            <url>https://repo1.maven.org/maven2</url>-->
-<!--            <snapshots>-->
-<!--                <enabled>true</enabled>-->
-<!--                <updatePolicy>always</updatePolicy>-->
-<!--            </snapshots>-->
-<!--        </repository>-->
-</repositories>
+    </repositories>
 
     <dependencies>
         <dependency>
@@ -51,14 +42,6 @@
             </plugin>
         </plugins>
     </build>
-
-<!--    <properties>-->
-<!--        <maven.compiler.source>1.17</maven.compiler.source>-->
-<!--        <maven.compiler.target>1.17</maven.compiler.target>-->
-<!--    </properties>-->
-
-
-    <!-- Other configurations, plugins, etc. -->
 
 </project>
 

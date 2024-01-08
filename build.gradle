@@ -11,7 +11,7 @@ dependencies {
     implementation 'org.mobilitydata.gtfs-validator:gtfs-validator-main:4.2.0'
 }
 
-// Include all dependencies in the 'build/libs' directory so we c an run the example mform the command line
+// Include all dependencies in the 'build/libs' directory so we can run the example from the command line
 task deployLocally (type: Copy) {
     from configurations.runtimeClasspath
     into 'build/libs'

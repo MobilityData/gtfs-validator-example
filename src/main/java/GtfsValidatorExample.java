@@ -22,11 +22,11 @@ public class GtfsValidatorExample {
         // Specify the output directory
         builder.setOutputDirectory(Path.of("./output"));
 
-        ValidationRunnerConfig mbValidatorConfig = builder.build();
+        ValidationRunnerConfig validatorConfig = builder.build();
 
         // Run MobilityData validator.
         ValidationRunner runner = new ValidationRunner(new VersionResolver(ApplicationType.CLI));
-        runner.run(mbValidatorConfig);
+        runner.run(validatorConfig);
         System.exit(0);
     }
 }
